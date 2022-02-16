@@ -1,0 +1,47 @@
+/*HEADER*/
+
+.profile {
+ width: 100%;
+ height: 40px;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ padding: 10px 0px 0px 350px;
+ cursor: pointer;
+}
+
+
+.profile .back {
+    margin-right: 10px;
+    height: 30px;
+}
+
+.profile .nameImg {
+    height: 15px;
+    
+}
+
+/*PERFIL */
+
+.info {
+    width: 100%;
+    background-color:  rgba(21, 7, 20, 1);
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picProfile1 {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user {
+    background-color:  rgba(21, 7, 20, 1);
+    font-family: Silkscreen;
+    font-size: 30px;
+}
