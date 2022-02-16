@@ -1,0 +1,96 @@
+.headerFeed {
+    display: flex;
+    width: 597px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    height: 45px;
+   
+}
+
+.profilePhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 130px;
+}
+
+.title {
+    height: 40px;
+    width: 165px;
+    cursor: pointer;
+}
+
+.formulario {
+    background-color: rgba(21, 7, 20, 1);
+    height: 220px;
+    width: 100%;
+    border-bottom: 1px solid rgba(96, 38, 91, 1) ;
+}
+
+.boxFormulario {
+    display: flex;
+    background-color:  rgba(21, 7, 20, 1);
+    justify-content: center;
+}
+
+.profilePhoto2 {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 20px; 
+    margin-top: 15px;
+}
+
+textarea {
+    width: 500px;
+    height: 120px;
+    margin-top: 15px;
+    border: none;
+    outline:none;
+}
+
+textarea::placeholder{
+    color: rgba(145, 77, 139, 1);
+}
+
+.accountant {
+    display: flex;
+    background-color: rgba(21, 7, 20, 1);
+    justify-content: space-between;
+    align-items: center;   
+    width: 504px;
+    margin-left: 561px;
+}
+
+.spanAccountant {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(21, 7, 20, 1);
+}
+
+.spanMax {
+    color:rgba(245, 13, 90, 1);
+    background-color: rgba(21, 7, 20, 1);
+}
+
+.btnEnviar {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:956px;
+    cursor: pointer;
+    color: rgba(21, 7, 20, 1);
+    margin-top: 15px;
+}
+
