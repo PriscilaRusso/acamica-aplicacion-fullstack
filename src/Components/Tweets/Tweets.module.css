@@ -1,0 +1,53 @@
+.containerTweets {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    align-items: center;
+    border-bottom: 1px solid rgba(96, 38, 91, 1);
+}
+
+.profilePhoto3 {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.boxTweets {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px;
+}
+
+
+.infoTw {
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+
+.parrafo {
+    max-width: 555px;
+    width: 100%;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+
+.trash {
+    cursor: pointer;
+}
+
+.like img {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.username {
+    font-family: Silkscreen;
+    font-size: 20px;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
