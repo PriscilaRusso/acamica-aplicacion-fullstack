@@ -1,0 +1,71 @@
+.userProfileBox {
+    display: flex;
+    width: 597px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    height: 45px;
+   
+}
+
+.imgBox, .logoutBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logout {
+    margin-right: 10px;
+}
+
+.userBox {
+    width: 100%;
+    background-color:  rgba(21, 7, 20, 1);
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid 
+    rgba(96, 38, 91, 1);
+}
+
+.picProfile3 {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid yellow;
+}
+
+.name {
+    background-color:  rgba(21, 7, 20, 1);
+    font-family: Silkscreen;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.myProfile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Silkscreen;
+    margin: 10px;
+    font-size: 20px;    
+    background-color: rgba(21, 7, 20, 1) ;
+}
+
+
+.post {    
+    cursor: pointer;
+    margin-right: 30px;
+    background-color: rgba(21, 7, 20, 1) ;
+    
+}
+
+.fav {
+    cursor: pointer;
+    margin-left: 30px;
+    background-color: rgba(21, 7, 20, 1) ;
+}
