@@ -45,6 +45,10 @@
     cursor: pointer;
 }
 
+.like span {
+    color: rgba(245, 13, 90, 1);
+}
+
 .username {
     font-family: Silkscreen;
     font-size: 20px;
