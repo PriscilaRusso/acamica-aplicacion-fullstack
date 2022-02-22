@@ -1,8 +1,13 @@
 import React from "react";
-import { loginConGoogle } from "../../firebase/index.js";
+import { Navigate } from "react-router-dom";
 import styles from "./LoginPage.module.css";
 
-function LoginPage () {
+function LoginPage ({user,login}) {
+
+    if (user) {
+        return <Navigate replace to="/" />;
+    }
+
     return (
     <div className={styles.loginPage}>
         <div className={styles.imgBox}>
@@ -12,7 +17,7 @@ function LoginPage () {
         <div className={styles.titleBox}>
             <img className={styles.title} src="./img/title.svg" alt="Titulo." />
             <p className={styles.description}>  Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button className={styles.btn} onClick={loginConGoogle}>
+            <button className={styles.btn} onClick={login}>
                 <img  className={styles.google} src="./img/Google.svg" alt="Logo de Google."/>
                 Sign in with Google
             </button>

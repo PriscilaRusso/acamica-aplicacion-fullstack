@@ -9,7 +9,7 @@
 .imgBox {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 160px;
     align-items: center;
 }
 
@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 110px ;
+    margin-right: 145px;
 }
 
 .title {
@@ -70,6 +70,7 @@
 .foot p {
     color:rgba(145, 77, 139, 1);
     margin-top: 100px;
+    margin-left: 110px;
 }
 
 .foot p span {
