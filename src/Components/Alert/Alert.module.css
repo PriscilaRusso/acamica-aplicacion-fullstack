@@ -1,0 +1,43 @@
+.container { 
+    width: 400px;
+    background-color: white;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    position: absolute;
+    left: 600px;
+    top:200px;
+}
+
+.container p {
+    margin-left: 38px;
+    padding-top: 10px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+}
+
+.btnBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.btnBox button {
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btnBox .yes:hover {
+    background-color: rgb(6, 94, 25);
+    transition: all 1s ease 0s;
+}
+
+.btnBox .no:hover {
+    background-color: rgb(134, 5, 5);
+    transition: all 1s ease 0s;  
+}
