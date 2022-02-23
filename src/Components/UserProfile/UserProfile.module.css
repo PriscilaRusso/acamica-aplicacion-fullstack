@@ -1,11 +1,23 @@
+
+
 .userProfileBox {
     display: flex;
     width: 597px;
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    height: 45px;
-   
+    height: 64px;
+    
+}
+
+.arrow {
+    width: 18px;
+}
+
+.nameSpan {
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: Silkscreen;
 }
 
 .imgBox, .logoutBox{
@@ -15,8 +27,19 @@
     cursor: pointer;
 }
 
+.logoutBox {
+    background-color: rgba(245, 13, 90, 1);
+    width: 130px;
+    height: 35px;
+}
+
 .logout {
+    background-color: rgba(245, 13, 90, 1);
     margin-right: 10px;
+}
+
+.logoutIcon {
+    background-color: rgba(245, 13, 90, 1);
 }
 
 .userBox {
@@ -27,8 +50,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid 
-    rgba(96, 38, 91, 1);
+    border-bottom: 1px solid rgba(96, 38, 91, 1);
 }
 
 .picProfile3 {
@@ -36,36 +58,57 @@
     height: 134px;
     border-radius: 50%;
     margin-bottom: 10px;
-    border: 2px solid yellow;
+    border: 3px solid yellow;
 }
 
 .name {
     background-color:  rgba(21, 7, 20, 1);
     font-family: Silkscreen;
     font-size: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    background-color: yellow;
+    color: black;
 }
 
 .myProfile {
     display: flex;
+    height: 40px;
     align-items: center;
     justify-content: center;
     font-family: Silkscreen;
-    margin: 10px;
+    width: 400px;
     font-size: 20px;    
     background-color: rgba(21, 7, 20, 1) ;
 }
 
 
 .post {    
+    height: 40px;
+    width: 130px;
     cursor: pointer;
-    margin-right: 30px;
-    background-color: rgba(21, 7, 20, 1) ;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(46, 19, 44, 1);
+}
+
+.post:hover {
+    background-color: rgb(90, 54, 88);
+    transition: 1s;
 }
 
 .fav {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    margin-left: 30px;
-    background-color: rgba(21, 7, 20, 1) ;
+    background-color: rgba(46, 19, 44, 1);
 }
+
+.fav:hover {
+    background-color: rgb(90, 54, 88);
+    transition: 1s;
+}
+
