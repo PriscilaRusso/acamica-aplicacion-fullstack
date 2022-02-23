@@ -2,23 +2,19 @@
 
 .profile {
  width: 100%;
- height: 40px;
+ height: 65px;
  display: flex;
  justify-content: flex-start;
  align-items: center;
  padding: 10px 0px 6px 350px;
  cursor: pointer;
-}
 
-
-.profile .back {
-    margin-right: 10px;
-    height: 30px;
 }
 
 .profile .nameImg {
     height: 15px;
-    
+    color: white;
+    font-family: Silkscreen;    
 }
 
 /*PERFIL */
@@ -26,7 +22,7 @@
 .info {
     width: 100%;
     background-color:  rgba(21, 7, 20, 1);
-    height: 234px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,10 +34,13 @@
     height: 134px;
     border-radius: 50%;
     margin-bottom: 10px;
+    border: 1px solid blue;
 }
 
 .user {
     background-color:  rgba(21, 7, 20, 1);
     font-family: Silkscreen;
-    font-size: 30px;
+    font-size: 20px;
+    background-color: blue;
+    height: 20px;
 }
