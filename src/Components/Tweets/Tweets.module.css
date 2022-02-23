@@ -1,15 +1,17 @@
 .containerTweets {
     display: flex;
     width: 100%;
-    max-width: 700px;
-    margin: 20px auto;
+    max-width: 590px;
+    margin: 20px 470px;
     align-items: center;
     border-bottom: 1px solid rgba(96, 38, 91, 1);
 }
 
 .profilePhoto3 {
+    width: 60px;
     border-radius: 50%;
     cursor: pointer;
+    margin-bottom: 40px;
 }
 
 .boxTweets {
@@ -43,6 +45,10 @@
 .like img {
     padding-right: 10px;
     cursor: pointer;
+}
+
+.heart {
+    width: 35px;
 }
 
 .like span {
