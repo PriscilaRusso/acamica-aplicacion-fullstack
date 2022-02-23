@@ -3,17 +3,18 @@
     width: 597px;
     align-items: center;
     justify-content: space-between;
-    margin: 10px auto;
+    margin: 10px 460px;
     height: 45px;
    
 }
 
 .profilePhoto {
-    width: 40px;
-    height: 40px;
+    width: 46px;    
+    height: 46px;
     border-radius: 50%;
     border: 2px solid yellow;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .logo {
@@ -30,7 +31,7 @@
 
 .formulario {
     background-color: rgba(21, 7, 20, 1);
-    height: 220px;
+    height: 260px;
     width: 100%;
     border-bottom: 1px solid rgba(96, 38, 91, 1) ;
 }
@@ -39,21 +40,25 @@
     display: flex;
     background-color:  rgba(21, 7, 20, 1);
     justify-content: center;
+    margin-right: 15px;
+    padding-top: 30px;
 }
 
 .profilePhoto2 {
     width: 60px;
     height: 60px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 20px; 
     margin-top: 15px;
+    
 }
 
 textarea {
     width: 500px;
     height: 120px;
     margin-top: 15px;
+    padding: 5px;
     border: none;
     outline:none;
 }
@@ -68,7 +73,7 @@ textarea::placeholder{
     justify-content: space-between;
     align-items: center;   
     width: 504px;
-    margin-left: 561px;
+    margin-left: 548px;
 }
 
 .spanAccountant {
@@ -88,9 +93,22 @@ textarea::placeholder{
     justify-content: center;
     align-items: center;
     position: relative;
-    left:956px;
+    left:950px;
     cursor: pointer;
     color: rgba(21, 7, 20, 1);
     margin-top: 15px;
+    border: 2px;
+    font-size: 18px;
+    font-family: Silkscreen;
+    font-weight: bold;
 }
+
+
+.btnEnviar:hover {
+    background-color: rgb(143, 110, 140) ;
+    transition: 0.5s;
+}
+
+
+
 
