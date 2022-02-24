@@ -1,3 +1,3 @@
 # Well Fullstack Application.
 
-![preview](img/captura.PNG)
+![captura](img/captura.PNG)
