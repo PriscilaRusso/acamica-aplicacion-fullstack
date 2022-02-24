@@ -1,13 +1,13 @@
 import React, { useState, useEffect} from 'react';
 import './App.css';
-import {  firestore, loginConGoogle, auth, } from './firebase';
+import { loginConGoogle, auth, } from './firebase';
 import { Navigate, Route, Routes} from "react-router-dom";
 //Components
 import LoginPage from './Components/LoginPage/LoginPage';
 import Feed from './Components/Feed/Feed';
 import Profile from './Components/Profile/Profile';
 import UserProfile from './Components/UserProfile/UserProfile';
-import Alert from './Components/Alert/Alert';
+
 
 
 function App() {
