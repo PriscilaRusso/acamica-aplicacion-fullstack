@@ -4,7 +4,7 @@
     height: 100px;
     margin: auto;
     margin-top: 50px;
-    position: absolute;
+    position: fixed;
     left: 600px;
     top:200px;
 }
