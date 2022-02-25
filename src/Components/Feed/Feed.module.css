@@ -87,21 +87,26 @@ textarea::placeholder{
     background-color: rgba(21, 7, 20, 1);
 }
 
-.btnEnviar {
-    width: 100px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left:950px;
-    cursor: pointer;
-    color: rgba(21, 7, 20, 1);
-    margin-top: 15px;
-    border: 2px;
-    font-size: 18px;
-    font-family: Silkscreen;
-    font-weight: bold;
+.btnEnviar, .disabledBtn {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 950px;
+  cursor: pointer;
+  color: rgba(21, 7, 20, 1);
+  margin-top: 15px;
+  border: 2px;
+  font-size: 18px;
+  font-family: Silkscreen;
+  font-weight: bold;
+}
+
+.disabledBtn {
+  pointer-events: none;
+  background-color: gray;
 }
 
 

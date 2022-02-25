@@ -6,7 +6,9 @@ import { collections } from "../../firebase/firebaseConfig";
 import { NavLink, Navigate } from 'react-router-dom';
 
 export default function Feed ({user}) {
-     
+    
+    const [disabledButton, setDisabledButton] = useState(true); 
+
     const [tweets, setTweets] = useState([]);
     const [tweet, setTweet] = useState({
     tweet: "",
@@ -15,6 +17,17 @@ export default function Feed ({user}) {
     pic: user?.photoURL,
     likes: []
     })
+    
+   
+
+    useEffect(() => {
+      if (tweet.tweet.length >= 1 && tweet.tweet.length <= 200) {
+        setDisabledButton(false);
+      } else {
+        setDisabledButton(true);
+      }
+    }, [tweet]);
+
 
     const handleTweetChange = (e) => {
         let nuevoTweet = {
@@ -33,6 +46,8 @@ export default function Feed ({user}) {
           tweet: ""
         })
       };
+      
+      
 
       useEffect(() => {
         const desuscribir = firestore
@@ -76,9 +91,16 @@ export default function Feed ({user}) {
                     <span className={styles.spanAccountant}>{tweet.tweet.length}</span>
                     <span className={styles.spanMax}>200max</span>
                 </div>
-                <button className={styles.btnEnviar} onClick={sendTweet}>POST</button>
+                <button 
+                onClick={sendTweet}
+                className={disabledButton ? styles.disabledBtn : styles.btnEnviar} 
+                disabled={disabledButton}
+                >
+                  POST
+                </button>
+                  
             </div>
             {tweets.map((tweet,idx) => {return <Tweets key={idx} user={user} tweet={tweet}/>})}
         </div>
     )
-    };
+    };  
