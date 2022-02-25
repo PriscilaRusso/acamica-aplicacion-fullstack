@@ -9,8 +9,8 @@ import { useParams } from "react-router-dom";
 export default function Profile ({user}) {
 
     const { uid } = useParams();
-    const  setUserProfile = useState();
-    const setRedirect   = useState(false);
+    const [  setUserProfile] = useState();
+    const [redirect, setRedirect] = useState(false);
     const [posts, setPosts] = useState([]);
 
 
