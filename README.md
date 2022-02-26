@@ -1,6 +1,6 @@
 # Well Fullstack Application.
 
-![foto](img/Captura.PNG)
+![foto](public/img/Captura.PNG)
 
 This is a page that simulates a Twitter style Social Network.
 Where users can do social sign up/login with a Google account and
