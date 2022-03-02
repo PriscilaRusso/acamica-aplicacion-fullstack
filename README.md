@@ -4,7 +4,7 @@
 
 This is a page that simulates a Twitter style Social Network.
 Where users can do social sign up/login with a Google account and
-publish/delete messages, as well as see and like the tweets published by other users.
+post/delete messages, as well as see and like the tweets posted by other users.
 
 # Built with:
 React to do the front-end and Firebase to do the back-end,
