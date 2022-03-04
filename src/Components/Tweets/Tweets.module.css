@@ -1,7 +1,7 @@
 .containerTweets {
     display: flex;
     width: 100%;
-    max-width: 590px;
+    max-width: 580px;
     margin: 20px 470px;
     align-items: center;
     border-bottom: 1px solid rgba(96, 38, 91, 1);
@@ -31,7 +31,7 @@
 }
 
 .parrafo {
-    max-width: 555px;
+    max-width: 500px;
     width: 100%;
     word-wrap: break-word;
     margin-bottom: 10px;

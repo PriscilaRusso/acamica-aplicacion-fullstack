@@ -41,12 +41,12 @@ export default function Tweets ({tweet, user}) {
                 <div className={styles.boxTweets}>
                     <div className={styles.infoTw}>
                         <div className={styles.username}>{tweet.autor}</div>
-                        {isUser && (<img className={styles.trash} onClick={()=> setOpen (true)} src="/img/trash.svg" alt="Eliminar." />)}
+                        {isUser && (<img className={styles.trash} onClick={()=> setOpen (true)} src="/img/Trash.svg" alt="Eliminar." />)}
                     </div>  
                     <div className={styles.parrafo}>{tweet.tweet}</div>
                     <div onClick={handleLike} className={styles.like}>
                         {isLiked ? (
-                        <img src="/img/like.svg" alt="Corazón Rojo." />
+                        <img src="/img/Like.svg" alt="Corazón Rojo." />
                     ) : (
                         <img className={styles.heart} src="/img/CorazonVacio.svg" alt="Corazón Vacio." />
                     )}
